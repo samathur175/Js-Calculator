@@ -1,0 +1,18 @@
+body {
+  background-color: #b4cde6;
+}
+.main-div {
+  position: fixed;
+  text-align: center;
+  align-items: center;
+  border-top: 8px;
+  border-bottom: 8px;
+  border-left: 8px;
+  border-right: 8px;
+  border-color: black;
+  margin-left: 38%;
+  margin-top: 10%;
+  border: solid;
+  width: 25rem;
+  height: 30rem;
+}
