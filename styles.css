@@ -1,18 +1,58 @@
 body {
-  background-color: #b4cde6;
+  background-color: #3d3c42;
+}
+.main-heading {
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .main-div {
-  position: fixed;
   text-align: center;
-  align-items: center;
   border-top: 8px;
   border-bottom: 8px;
   border-left: 8px;
   border-right: 8px;
   border-color: black;
-  margin-left: 38%;
-  margin-top: 10%;
   border: solid;
-  width: 25rem;
-  height: 30rem;
+  width: 16.5rem;
+  height: 25.5rem;
+  border-radius: 12px;
+  background-color: #181818;
+  margin: auto;
+}
+.disp {
+  height: 6.25rem;
+  width: 15.5rem;
+  margin-top: 6px;
+  border-radius: 10px;
+  border-style: none;
+  border-color: #06283d;
+  margin-bottom: 10px;
+  background-color: #06283d;
+  color: aliceblue;
+  font-size: 2.8rem;
+}
+.fa-delete-left {
+}
+.main-btn {
+  width: 3.5rem;
+  height: 3.18rem;
+  margin-left: 2px;
+  margin-right: 3px;
+  margin-bottom: 3px;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  box-shadow: 3px 3px #3d3c42;
+  border: none;
+}
+.main-btn-equal {
+  background-color: #ff7777;
+}
+.main-btn-side {
+  background-color: #ab46d2;
+}
+.main-btn:hover {
+  opacity: 80%;
 }
